@@ -1,0 +1,4 @@
+loopalooza_max-for-live
+=======================
+
+Loopalooza is a system that estimates and manipulates rhythmic structures from audio loops in real-time to perform syncopation transformations. The core of our system is a technique for the manipulation of syncopation in symbolic representations of rhythm. In order to apply this technique to audio signals we must first segment the audio loop into musical events using onset detection. Then, we use the symbolic syncopation transformation method to determine how to modify the rhythmic structure in order to change the syncopation. Finally we reconstruct the audio loop using one of two alternative methods, one based on time scaling and the other on resampling. Our system, Loopalooza, is implemented as a freely available MaxForLive device to allow musicians and DJs to manipulate syncopation in audio loops in real-time. One can obtain a multitude of rhythmic variations from a single audio source.
